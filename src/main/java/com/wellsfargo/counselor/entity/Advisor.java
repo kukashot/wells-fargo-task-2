@@ -1,11 +1,11 @@
 package com.wellsfargo.counselor.entity;
 
 
+import ch.qos.logback.core.net.server.Client;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
-
 @Entity
 public class Advisor {
 
